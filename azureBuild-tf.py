@@ -16,7 +16,7 @@ from colorama import Fore, Back, Style, init
 init(autoreset=True)
 
 def clone_repo(dir_name):
-    REMOTE_URL = "https://GreenpagesDevOps@dev.azure.com/GreenpagesDevOps/GPCX2.0-Terraform/_git/GPCX2.0-AzureTerraform"
+    REMOTE_URL = "https://*******@dev.azure.com/*******/******.0-Terraform/_git/AzureTerraform"
     target_dir = './modules'
 
     Repo.clone_from(url=REMOTE_URL, to_path=target_dir, branch=DEV_BRANCH)

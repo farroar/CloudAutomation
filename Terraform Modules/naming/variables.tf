@@ -65,7 +65,7 @@ variable "azlimits" {
 
 
 variable "az_postfix" {
-  description = "gpcx recommended postfix"
+  description = "Standard recommended postfix"
   default = {
     "asr"           = "-asr"
     "aaa"           = "-aaa"
